@@ -315,32 +315,12 @@ if __name__ == '__main__':
     args.train_json = './data/3train.json'
     args.valid_json = './data/3valid.json'
     train(args, 3)
-    # logging.info('======================fold4===================')
-    # args.train_json = './data/4train.json'
-    # args.valid_json = './data/4valid.json'
-    # train(args, 4)
-    # logging.info('======================fold5===================')
-    # args.train_json = './data/5train.json'
-    # args.valid_json = './data/5valid.json'
-    # train(args, 5)
-    # logging.info('======================fold6===================')
-    # args.train_json = './data/6train.json'
-    # args.valid_json = './data/6valid.json'
-    # train(args, 6)
-    # logging.info('======================fold7===================')
-    # args.train_json = './data/7train.json'
-    # args.valid_json = './data/7valid.json'
-    # train(args, 7)
-    # logging.info('======================fold8===================')
-    # args.train_json = './data/8train.json'
-    # args.valid_json = './data/8valid.json'
-    # train(args, 8)
-    # logging.info('======================fold9===================')
-    # args.train_json = './data/9train.json'
-    # args.valid_json = './data/9valid.json'
-    # train(args, 9)
-    # logging.info('======================fold10===================')
-    # args.train_json = './data/10train.json'
-    # args.valid_json = './data/10valid.json'
-    # train(args, 10)
+    logging.info('======================fold4===================')
+    args.train_json = './data/4train.json'
+    args.valid_json = './data/4valid.json'
+    train(args, 4)
+    logging.info('======================fold5===================')
+    args.train_json = './data/5train.json'
+    args.valid_json = './data/5valid.json'
+    train(args, 5)
 #     val(args)
